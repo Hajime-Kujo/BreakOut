@@ -1,0 +1,20 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "breakout:trash_can",
+        "materials": { "default": "boentity" },
+        "textures": {
+          "default": "textures/entity/trash_can"
+        },
+        "geometry": {
+          "default": "geometry.trash_can"
+        },
+        "render_controllers": [ "controller.render.default" ],
+        "spawn_egg": {
+          "base_color": "#e79595",
+          "overlay_color": "#ef2222"
+        }
+      }
+    }
+  }

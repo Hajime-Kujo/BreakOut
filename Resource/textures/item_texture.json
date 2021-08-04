@@ -1,0 +1,14 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"breakout_trash_can": {
+			"textures": [
+				"textures/items/trash_can"
+			]
+		},
+		"breakout_developperstick": {
+			"textures": "textures/items/developperstick"
+		}
+	}
+}

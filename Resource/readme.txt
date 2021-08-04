@@ -1,0 +1,1 @@
+デフォルトのエンティティ用マテリアルが"boentity"という名前で定義されてる。(materials/entity.material)
