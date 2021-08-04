@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "BreakOut!B",
+      "description": "Addon For Jail Breaking Game!",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 13, 0],
+      "uuid": "13557e0a-46c7-4ff5-a060-ec29d6e323ff"
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "b18c6b8a-2850-464b-a8e4-45c0f1f157f6"
+      }
+    ]
+  }

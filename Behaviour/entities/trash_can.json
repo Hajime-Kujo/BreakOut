@@ -1,0 +1,45 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "breakout:trash_can",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"trash_can",
+					"mob"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:inventory": {
+				"container_type": "hopper",
+				"can_be_siphoned_from": true,
+				"private": false,
+				"restrict_to_owner": false
+			},
+			"minecraft:health": {
+				"value": 200,
+				"max": 200,
+				"min": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.8,
+				"height": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}
